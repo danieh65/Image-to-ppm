@@ -1,6 +1,8 @@
 # Image to ppm
 This program is intended to take an image file and convert it into a P3 .ppm file. This can be done in two ways:
 ## Python Script (```Image_to_ppm.py```)
+It is by far easier to download the ```Image_to_ppm.py``` file directly as it is only one 878 byte file. 
+
 To run the script, you will need numpy, OpenCV, and skimage packages installed. If you don't, you can install them with 
 
 ```
