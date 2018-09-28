@@ -1,4 +1,4 @@
-import os,glob,cv2
+import os,cv2
 import sys,argparse
 import numpy as np
 from skimage import img_as_ubyte as ubyte
@@ -6,7 +6,7 @@ from skimage import img_as_ubyte as ubyte
 dir_path = os.path.dirname(os.path.realpath(__file__))
 image_path=sys.argv[1]
 filename = image_path
-if dir_path not in image_path:
+if "/" not in image_path:
     filename = dir_path +'/' +image_path
 tokens = image_path.split('.')
 tokens.pop()
